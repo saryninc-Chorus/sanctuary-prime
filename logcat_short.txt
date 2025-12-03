@@ -1,0 +1,500 @@
+12-02 11:27:36.273  7930  7930 E AndroidRuntime: 	... 13 more
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: FATAL EXCEPTION: main
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: Process: com.sanctuary.prime.scepter, PID: 22057
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity}: android.content.res.Resources$NotFoundException: Resource ID #0x7f010001
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4200)
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4399)
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:112)
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:174)
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:109)
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:81)
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2772)
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:112)
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:268)
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:384)
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8983)
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:907)
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: Caused by: android.content.res.Resources$NotFoundException: Resource ID #0x7f010001
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: 	at android.content.res.ResourcesImpl.getValue(ResourcesImpl.java:307)
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: 	at android.content.res.Resources.loadXmlResourceParser(Resources.java:2558)
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: 	at android.content.res.Resources.getLayout(Resources.java:1274)
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:460)
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:413)
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: 	at com.android.internal.policy.PhoneWindow.setContentView(PhoneWindow.java:553)
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: 	at android.app.Activity.setContentView(Activity.java:3948)
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: 	at com.sanctuary.prime.scepter.MainActivity.onCreate(MainActivity.java:9)
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:9149)
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:9127)
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1526)
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4182)
+12-02 11:45:30.783 22057 22057 E AndroidRuntime: 	... 13 more
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: FATAL EXCEPTION: main
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: Process: com.sanctuary.prime.scepter, PID: 25787
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity}: android.content.res.Resources$NotFoundException: Resource ID #0x7f010001
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4200)
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4399)
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:112)
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:174)
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:109)
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:81)
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2772)
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:112)
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:268)
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:384)
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8983)
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:907)
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: Caused by: android.content.res.Resources$NotFoundException: Resource ID #0x7f010001
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: 	at android.content.res.ResourcesImpl.getValue(ResourcesImpl.java:307)
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: 	at android.content.res.Resources.loadXmlResourceParser(Resources.java:2558)
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: 	at android.content.res.Resources.getLayout(Resources.java:1274)
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:460)
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:413)
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: 	at com.android.internal.policy.PhoneWindow.setContentView(PhoneWindow.java:553)
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: 	at android.app.Activity.setContentView(Activity.java:3948)
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: 	at com.sanctuary.prime.scepter.MainActivity.onCreate(MainActivity.java:9)
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:9149)
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:9127)
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1526)
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4182)
+12-02 11:50:10.738 25787 25787 E AndroidRuntime: 	... 13 more
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: FATAL EXCEPTION: main
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: Process: com.sanctuary.prime.scepter, PID: 26040
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity}: android.content.res.Resources$NotFoundException: Resource ID #0x7f010001
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4200)
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4399)
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:112)
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:174)
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:109)
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:81)
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2772)
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:112)
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:268)
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:384)
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8983)
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:907)
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: Caused by: android.content.res.Resources$NotFoundException: Resource ID #0x7f010001
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: 	at android.content.res.ResourcesImpl.getValue(ResourcesImpl.java:307)
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: 	at android.content.res.Resources.loadXmlResourceParser(Resources.java:2558)
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: 	at android.content.res.Resources.getLayout(Resources.java:1274)
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:460)
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:413)
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: 	at com.android.internal.policy.PhoneWindow.setContentView(PhoneWindow.java:553)
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: 	at android.app.Activity.setContentView(Activity.java:3948)
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: 	at com.sanctuary.prime.scepter.MainActivity.onCreate(MainActivity.java:9)
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:9149)
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:9127)
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1526)
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4182)
+12-02 11:51:07.987 26040 26040 E AndroidRuntime: 	... 13 more
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: FATAL EXCEPTION: main
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: Process: com.sanctuary.prime.scepter, PID: 26269
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity}: android.content.res.Resources$NotFoundException: Resource ID #0x7f010001
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4200)
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4399)
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:112)
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:174)
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:109)
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:81)
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2772)
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:112)
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:268)
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:384)
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8983)
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:907)
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: Caused by: android.content.res.Resources$NotFoundException: Resource ID #0x7f010001
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: 	at android.content.res.ResourcesImpl.getValue(ResourcesImpl.java:307)
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: 	at android.content.res.Resources.loadXmlResourceParser(Resources.java:2558)
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: 	at android.content.res.Resources.getLayout(Resources.java:1274)
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:460)
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:413)
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: 	at com.android.internal.policy.PhoneWindow.setContentView(PhoneWindow.java:553)
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: 	at android.app.Activity.setContentView(Activity.java:3948)
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: 	at com.sanctuary.prime.scepter.MainActivity.onCreate(MainActivity.java:9)
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:9149)
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:9127)
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1526)
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4182)
+12-02 11:51:44.639 26269 26269 E AndroidRuntime: 	... 13 more
+12-03 10:05:33.587  2123  2402 E AppOps  : java.lang.SecurityException: Specified package "com.google.android.googlequicksearchbox" under uid 99590 but it is not
+12-03 10:06:37.693  2123  3411 E AppOps  : java.lang.SecurityException: Specified package "com.google.android.googlequicksearchbox" under uid 99590 but it is not
+12-03 10:07:12.709  2123  2203 E ActivityManager: java.lang.RuntimeException: SmartBackground restriction
+12-03 10:07:58.831  2123  2693 E AppOps  : java.lang.SecurityException: Specified package "com.google.android.googlequicksearchbox" under uid 99590 but it is not
+12-03 10:08:58.110 21760 18753 E AconfigFlags: java.io.FileNotFoundException: /vendor/etc/aconfig_flags.pb: open failed: ENOENT (No such file or directory)
+12-03 10:08:58.110 21760 18753 E AconfigFlags: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+12-03 10:08:58.232  2123  2202 I ActivityManager: Force stopping com.sanctuary.prime.scepter appid=10631 user=-1: installPackageLI
+12-03 10:08:58.235  2123  2308 I PackageManager: Update package com.sanctuary.prime.scepter code path from /data/app/~~LR4gkHHqzgQbKyeUfqR7lQ==/com.sanctuary.prime.scepter-ziJcxGWGgPhzDxqJP_NWiw== to /data/app/~~dkywtanJ7cyAdwC-2AV20g==/com.sanctuary.prime.scepter-_5kYuop94ThmVEVvqsApoA==; Retain data and using new
+12-03 10:08:58.236  2123  2308 I AppsFilter: interaction: PackageSetting{768ea0c com.oem.euiccpartnerapp/10332} -> PackageSetting{44a607a com.sanctuary.prime.scepter/10631} BLOCKED
+12-03 10:08:58.273  2123  2202 I ActivityManager: Killing 28589:com.sanctuary.prime.scepter/u0a631 (adj 910, setSvc -10000): stop com.sanctuary.prime.scepter due to installPackageLI
+12-03 10:08:58.274  2123  2202 W ActivityTaskManager: Force removing ActivityRecord{7daeb4b u0 com.sanctuary.prime.scepter/.MainActivity t89544 f}}: app died, no saved state
+12-03 10:08:58.282  2123  2413 W UsageStatsService: Unexpected activity event reported! (com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity event : 23 instanceId : 74117415)
+12-03 10:08:58.334  2123  2693 V ActivityManager: Got obituary of 28589:com.sanctuary.prime.scepter
+12-03 10:08:58.449  2123  2308 I AppsFilter: interaction: PackageSetting{768ea0c com.oem.euiccpartnerapp/10332} -> PackageSetting{236dcee com.sanctuary.prime.scepter/10631} BLOCKED
+12-03 10:08:58.519  2123  2308 I AppsFilter: interaction: PackageSetting{a713889 com.oem.euiccpartnerapp/10332} -> PackageSetting{db7f001 com.sanctuary.prime.scepter/10631} BLOCKED
+12-03 10:08:58.594  2123  2308 I ActivityManager: Force stopping com.sanctuary.prime.scepter appid=10631 user=0: pkg removed
+12-03 10:08:58.626  2123  2529 W PackageConfigPersister: App-specific configuration not found for packageName: com.sanctuary.prime.scepter and userId: 0
+12-03 10:08:58.642  2123  2123 I Telecom : CarModeTracker: Package com.sanctuary.prime.scepter is not tracked.: SSH.oR@Jlo
+12-03 10:08:58.646  1253  1253 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.646 26768 26768 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.647 11615 11615 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.647 10875 10875 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.647 29004 29004 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.647 17698 17698 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.647 14808 14808 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.648  7762  7762 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.648  3676  3676 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.648 29768 29768 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.648 15758 15758 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.649 14831 14831 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.649 13190 13190 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.649 10855 10855 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.649  2655  2655 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.649 15954 15954 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.650 30424 30424 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.649  2123  2123 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.650 23967 23967 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.650 30216 30216 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.650 19378 19378 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.650 26762 26762 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.651  4674  4674 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.651 13223 13223 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.650 18230 18230 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.651  4157  4157 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.651 21633 21633 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.651  2889  2889 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.651 13926 13926 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.652 30180 30180 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.653  2833  2833 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.653  9383  9383 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.653  4040  4040 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.653  7727  7727 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.653  4118  4118 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.653  3594  3594 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.653  4549  4549 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.654 10413 10413 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.654 23523 23523 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.654 11271 11271 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.654  9446  9446 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.654 26690 26690 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.654  3658  3658 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.654  4160  4160 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.655  4531  4531 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.655  4122  4122 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.655  2847  2847 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.655 31927 31927 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.656  2848  2848 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.656  4624  4624 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.656  2846  2846 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.648  4592  4592 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.656  2786  2786 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.657 24394 24394 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.657  4128  4128 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.657 14021 14021 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.657 26744 26744 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.657 23641 23641 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.658 23858 23858 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.658  2877  2877 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.658  2913  2913 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.658 23729 23729 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.658  3577  3577 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.659  7760  7760 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.659  7777  7777 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.659  4654  4654 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.660  2935  2935 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.660 25894 25894 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.660  2816  2816 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.661  4641  4641 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.661  4548  4548 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.662 25745 25745 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.662 26683 26683 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.663 23651 23651 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.663  2360  2360 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.663 25751 25751 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.666 26768 26768 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.666 10413 10413 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.666  4674  4674 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.667  1253  1253 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.667  7762  7762 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.667 11615 11615 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.668 17698 17698 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.668 29768 29768 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.669  3594  3594 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.669 10855 10855 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.670 15954 15954 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.670 15758 15758 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.670 30216 30216 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.670 13190 13190 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.671 30180 30180 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.671 21633 21633 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.671 30424 30424 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.671 19378 19378 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.672  2655  2655 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.672 26744 26744 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.673 13926 13926 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.672  2123  2123 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.670 18230 18230 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.673  2816  2816 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.673  2848  2848 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.673 26710 26710 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.674  4040  4040 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.674 24394 24394 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.674  7727  7727 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.675  3658  3658 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.675  4118  4118 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.675 23523 23523 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.675  9446  9446 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.676 23729 23729 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.676  9383  9383 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.677  4122  4122 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.677 21760 21760 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.677 14021 14021 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.677 21760 21760 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.677 29004 29004 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.677 31927 31927 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.677 26690 26690 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.677  7760  7760 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.677  2913  2913 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.678  4157  4157 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.678 26762 26762 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.678  3676  3676 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.678  4641  4641 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.678 13223 13223 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.678 11271 11271 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.679  4592  4592 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.679  4160  4160 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.679  4531  4531 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.679  4128  4128 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.679  2889  2889 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.680 23641 23641 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.680  2786  2786 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.680 23858 23858 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.681  3577  3577 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.681  2877  2877 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.681  2847  2847 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.681 23967 23967 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.681  4624  4624 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.682 26710 26710 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.682  2935  2935 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.682 25894 25894 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.682 25745 25745 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.683 23651 23651 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.685 14831 14831 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.687 10875 10875 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.688 14808 14808 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.693  4654  4654 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.693  4549  4549 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.694 25751 25751 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.695 13962 13962 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.696  4548  4548 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.696  2360  2360 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.697  7777  7777 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.697 13962 13962 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.698 26683 26683 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.699  2833  2833 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.701 26723 26723 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.701 26723 26723 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.704  2846  2846 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.756  4094  4094 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.770  4094  4094 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.820  2893  2893 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:58.821  2893  2893 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:08:59.092  2123  4824 D ShortcutService: Getting shortcuts for launcher= com.motorola.uxcoreuser=0 pkg=com.sanctuary.prime.scepter
+12-03 10:08:59.111  2123  2608 D ShortcutService: replacing package: com.sanctuary.prime.scepter userId0
+12-03 10:08:59.111  2123  2608 D ShortcutService: handlePackageUpdateFinished: com.sanctuary.prime.scepter user=0
+12-03 10:08:59.112  2123  2608 D ShortcutService: rescanPackageIfNeeded 0@com.sanctuary.prime.scepter, forceRescan=true , isNewApp=true
+12-03 10:08:59.112  2123  2608 D ShortcutService: Package com.sanctuary.prime.scepter has 0 manifest shortcut(s), and 0 share target(s)
+12-03 10:08:59.145  2123  2123 W AlarmManager: Package com.sanctuary.prime.scepter, uid 10631 lost permission to set exact alarms!
+12-03 10:08:59.635  2123  3411 E AppOps  : java.lang.SecurityException: Specified package "com.google.android.googlequicksearchbox" under uid 99590 but it is not
+12-03 10:09:07.528 13553 13553 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:09:07.528 13553 13553 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:09:07.530 14851 14851 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:09:07.532 14851 14851 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:09:27.625  2123  4813 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.sanctuary.prime.scepter/.MainActivity} with LAUNCH_MULTIPLE from uid 2000 (startActivityAsUser) (BAL_ALLOW_PERMISSION) result code=0
+12-03 10:09:27.626  2655  2723 V WindowManagerShell: Transition requested (#34744): android.os.BinderProxy@6a81492 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=89558 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.sanctuary.prime.scepter/.MainActivity } baseActivity=ComponentInfo{com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity} topActivity=ComponentInfo{com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity} origActivity=null realActivity=ComponentInfo{com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity} numActivities=1 lastActiveTime=944695975 supportsMultiWindow=true supportsGlobalFreeform=true resizeMode=1 isResizeable=true isAppLocked=false isShowDecorCaptionWindowRequest=false canKillAndRestart=false minWidth=-1 minHeight=-1 defaultMinSize=200 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@6c16e63} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 108 - 0, 0) topActivityInfo=ActivityInfo{3905a60 com.sanctuary.prime.scepter.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2640 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 34744 }
+12-03 10:09:27.654  2123  2203 I ActivityManager: Start proc 19543:com.sanctuary.prime.scepter/u0a631 for next-top-activity {com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity}
+12-03 10:09:27.682  2123  2401 D CoreBackPreview: Window{1541605 u0 Splash Screen com.sanctuary.prime.scepter}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@be0427b, mPriority=0, mIsAnimationCallback=false}
+12-03 10:09:27.765  2123  2158 V WindowManager: Sent Transition (#34744) createdAt=12-03 10:09:27.605 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=89558 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.sanctuary.prime.scepter/.MainActivity } baseActivity=ComponentInfo{com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity} topActivity=ComponentInfo{com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity} origActivity=null realActivity=ComponentInfo{com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity} numActivities=1 lastActiveTime=944695975 supportsMultiWindow=true supportsGlobalFreeform=true resizeMode=1 isResizeable=true isAppLocked=false isShowDecorCaptionWindowRequest=false canKillAndRestart=true minWidth=-1 minHeight=-1 defaultMinSize=200 token=WCT{RemoteToken{c82e717 Task{1d97e11 #89558 type=standard A=10631:com.sanctuary.prime.scepter}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 108 - 0, 0) topActivityInfo=ActivityInfo{8ef9704 com.sanctuary.prime.scepter.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2640 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 34744 }
+12-03 10:09:27.765  2123  2158 V WindowManager:         {WCT{RemoteToken{c82e717 Task{1d97e11 #89558 type=standard A=10631:com.sanctuary.prime.scepter}}} m=OPEN f=NONE pTaskId=-1 leash=Surface(name=Task=89558)/@0x5d4602f sb=Rect(0, 0 - 1080, 2640) eb=Rect(0, 0 - 1080, 2640) d=0 taskParent=-1},
+12-03 10:09:27.894 13648 13648 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:09:27.897 13648 13648 D ActivityThread: Package [com.sanctuary.prime.scepter] reported as REPLACED, but missing application info. Assuming REMOVED.
+12-03 10:09:27.917  2123  4824 D CoreBackPreview: Window{f39edfa u0 com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@b44252, mPriority=0, mIsAnimationCallback=false}
+12-03 10:09:28.386  2123  2201 W MotoBatteryCareService: uid: 10631 pkgName:com.sanctuary.prime.scepter come to foreground
+12-03 10:09:28.402  2123  3411 D CoreBackPreview: Window{1541605 u0 Splash Screen com.sanctuary.prime.scepter EXITING}: Setting back callback null
+12-03 10:09:28.448  2123  4824 W PackageConfigPersister: App-specific configuration not found for packageName: com.sanctuary.prime.scepter and userId: 0
+12-03 10:09:36.650  2123  2203 E ActivityManager: java.lang.RuntimeException: SmartBackground restriction
+12-03 10:09:37.113  2123  2158 V WindowManager:         {WCT{RemoteToken{c82e717 Task{1d97e11 #89558 type=standard A=10631:com.sanctuary.prime.scepter}}} m=TO_BACK f=NONE pTaskId=-1 leash=Surface(name=Task=89558)/@0x5d4602f sb=Rect(0, 0 - 1080, 2640) eb=Rect(0, 0 - 1080, 2640) d=0 taskParent=-1}
+12-03 10:09:37.661  2123  2203 E ActivityManager: java.lang.RuntimeException: SmartBackground restriction
+12-03 10:09:39.178 26768 29301 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:39.178 26768 29301 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:39.180 26768 29301 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:39.180 26768 29301 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:39.228 26768 29301 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:39.228 26768 29301 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:39.294 26768 16351 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:39.294 26768 16351 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:39.297 26768 16351 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:39.297 26768 16351 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:39.397  1447  2059 I SurfaceFlinger: onHandleDestroyed: name=Surface(name=f39edfa com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity)/@0xa314c34 - animation-leash of starting_reveal#474577, layerId=474577, parentId=0
+12-03 10:09:39.405  1447  1447 I BufferQueueDebug: [Surface(name=f39edfa com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity)/@0xa314c34 - animation-leash of starting_reveal#474577](this:0xb4000070ce1811b0,id:-1,api:0,p:-1,c:1447) onDestructor()
+12-03 10:09:40.567  2123  3411 E AppOps  : java.lang.SecurityException: Specified package "com.google.android.googlequicksearchbox" under uid 99590 but it is not
+12-03 10:09:40.769  2123  2627 D ActivityManager: freezing 19543 com.sanctuary.prime.scepter, reason=moto_freezer, adj=700, adjType=previous
+12-03 10:09:42.149 26768 26819 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:42.149 26768 26819 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:42.861 26768 16351 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:42.861 26768 16351 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:42.863 26768 16351 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:42.863 26768 16351 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:42.965 26768 16351 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:42.965 26768 16351 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:43.343 26768 26819 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:43.343 26768 26819 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:44.420 26768 26819 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:44.420 26768 26819 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:44.429 26768 26819 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:44.429 26768 26819 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:45.321 26768 26819 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:45.321 26768 26819 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:46.188 26768 16351 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:46.188 26768 16351 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:46.192 26768 26819 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:46.192 26768 26819 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:47.009 26768 26819 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:47.009 26768 26819 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:47.547 26768 16351 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:47.547 26768 16351 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:47.977 26768 16351 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:47.977 26768 16351 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:48.345 26768 16351 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:48.345 26768 16351 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:48.345 26768 26819 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:48.345 26768 26819 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:48.801 26768 26819 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:48.801 26768 26819 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:48.985 26768 16351 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:48.985 26768 16351 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:48.986 26768 26819 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:48.986 26768 26819 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:49.045 26768 26819 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:49.045 26768 26819 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:49.208 26768 26819 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:49.208 26768 26819 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:49.211 26768 26819 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:49.211 26768 26819 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:49.479 26768 26819 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:49.479 26768 26819 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:49.483 26768 26819 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:49.483 26768 26819 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:49.485 26768 26819 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:49.485 26768 26819 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:49.910 26768 15331 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:49.910 26768 15331 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:49.911 26768 15331 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:49.911 26768 15331 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:50.484 26768 15331 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:50.484 26768 15331 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:50.496 26768 15331 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:50.496 26768 15331 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:50.530 26768 15331 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:50.530 26768 15331 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:50.532 26768 26819 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:50.532 26768 26819 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:50.533 26768 26819 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:50.533 26768 26819 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:50.536 26768 26819 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:50.536 26768 26819 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:50.618 26768 15331 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:50.618 26768 15331 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:50.620 26768 15331 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:50.620 26768 15331 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:51.752 26768 15331 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:51.752 26768 15331 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:51.855 26768 15331 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:51.855 26768 15331 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:51.857 26768 15331 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:51.857 26768 15331 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:51.858 26768 15331 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:51.858 26768 15331 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:51.859 26768 15331 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:51.859 26768 15331 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:52.218 26768 26819 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:52.218 26768 26819 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:52.220 26768 15331 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:52.220 26768 15331 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:52.221 26768 16351 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:52.221 26768 16351 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:52.224 26768 16351 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:52.224 26768 16351 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:52.229 26768 26819 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:52.229 26768 26819 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:52.229 26768 16351 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:52.229 26768 16351 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:52.230 26768 16351 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:52.230 26768 16351 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:52.233 26768 26819 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:52.233 26768 26819 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:52.235 26768 16351 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:52.235 26768 16351 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:52.239 26768 26819 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:52.239 26768 26819 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:52.255 26768 15331 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:52.255 26768 15331 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:52.258 26768 16351 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:52.258 26768 16351 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:53.106 26768 15331 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:53.106 26768 15331 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:53.114 26768 15331 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:53.114 26768 15331 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:53.116 26768 15331 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:53.116 26768 15331 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:53.118 26768 16351 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:53.118 26768 16351 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:09:53.890  2123  2654 I PowerHalWrapper: amsBoostNotify pid:11615,activity:com.whatsapp.home.ui.HomeActivity, package:com.whatsapp, mProcessCreatePackcom.sanctuary.prime.scepter 
+12-03 10:09:53.892  2123  2654 I PowerHalWrapper: amsBoostNotify pid:11615,activity:com.whatsapp.Conversation, package:com.whatsapp, mProcessCreatePackcom.sanctuary.prime.scepter 
+12-03 10:09:54.913  2123  2654 I PowerHalWrapper: amsBoostNotify pid:1253,activity:com.android.launcher3.CustomizationPanelLauncher, package:com.motorola.launcher3, mProcessCreatePackcom.sanctuary.prime.scepter 
+12-03 10:09:54.959  2123  2203 E ActivityManager: java.lang.RuntimeException: SmartBackground restriction
+12-03 10:09:55.100  1253  6211 D CustomAppIcons: setWrapperBackgroundColor color: ff12181c, mWrapperBackgroundColor: ff12181c, stack: java.lang.Exception
+12-03 10:09:55.134  1253  6211 D CustomAppIcons: setWrapperBackgroundColor color: ff000000, mWrapperBackgroundColor: ff000000, stack: java.lang.Exception
+12-03 10:09:55.147 13553 13640 I WM-WorkerWrapper: androidx.work.impl.WorkerStoppedException
+12-03 10:09:55.261  1253  6211 D CustomAppIcons: setWrapperBackgroundColor color: fff5f5f5, mWrapperBackgroundColor: fff5f5f5, stack: java.lang.Exception
+12-03 10:09:55.793  2123  2654 I PowerHalWrapper: amsBoostNotify pid:11615,activity:com.whatsapp.home.ui.HomeActivity, package:com.whatsapp, mProcessCreatePackcom.sanctuary.prime.scepter 
+12-03 10:09:55.871  2655  2723 V WindowManagerShell: Transition requested (#34748): android.os.BinderProxy@afa053d TransitionRequestInfo { type = TO_FRONT, triggerTask = TaskInfo{userId=0 taskId=89558 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.sanctuary.prime.scepter/.MainActivity } baseActivity=ComponentInfo{com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity} topActivity=ComponentInfo{com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity} origActivity=null realActivity=ComponentInfo{com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity} numActivities=1 lastActiveTime=944704972 supportsMultiWindow=true supportsGlobalFreeform=true resizeMode=1 isResizeable=true isAppLocked=false isShowDecorCaptionWindowRequest=false canKillAndRestart=false minWidth=-1 minHeight=-1 defaultMinSize=200 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@43b0132} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 108 - 0, 0) topActivityInfo=ActivityInfo{628ee83 com.sanctuary.prime.scepter.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2640 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@46ba800, appThread = android.app.IApplicationThread$Stub$Proxy@f06b839, debugName = QuickstepLaunch }, displayChange = null, flags = 0, debugId = 34748 }
+12-03 10:09:55.875  2655  2723 D WindowManagerShell: onActivityRestartAttempt: ComponentInfo{com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity}
+12-03 10:09:55.911  2123  2627 D ActivityManager: unfreezing ProcessRecord{21e8213 19543:com.sanctuary.prime.scepter/u0a631}, reason = moto_freezer, adj = 900, adjType = cch-act, adjSource = null
+12-03 10:09:55.913  2123  2627 D ActivityManager: sync unfroze 19543 com.sanctuary.prime.scepter for 1
+12-03 10:09:55.915  4592  4592 D GameMode: onStartedActivityChange: componnent: ComponentInfo{com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity} entered launcher screen? true
+12-03 10:09:55.915  2123  2654 I PowerHalWrapper: amsBoostNotify pid:19543,activity:com.sanctuary.prime.scepter.MainActivity, package:com.sanctuary.prime.scepter, mProcessCreatePackcom.sanctuary.prime.scepter 
+12-03 10:09:55.915 26744 26744 D MAC/ActionCoreApplicationMC: onTopResumedActivityChange()-->packageName=com.sanctuary.prime.scepter,isTop=true
+12-03 10:09:55.915  2123  2654 I ScnModule: [GameDetection] packname: com.sanctuary.prime.scepter, apkSize: 8619. 
+12-03 10:09:55.915  2123  2654 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity pid=19543 activityId:253319835 state:1
+12-03 10:09:55.915  1363  1363 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.sanctuary.prime.scepter actName: com.sanctuary.prime.scepter.MainActivity pid: 19543 uid: 10631 state: 1
+12-03 10:09:55.915  1363  1363 I MTK_APPList: [notifyAPPstate] com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity, pid=19543, uid=10631, state:RESUMED, fps:-1, win:0
+12-03 10:09:55.915  1363  1363 I MTK_APPList: [notifyAPPstate] multi_resumed_app_info[1] com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity, pid:19543, fps:-1, isMultiWindow:0
+12-03 10:09:55.915  1363  1363 I MTK_APPList: [notifyAPPstate] foreground:com.sanctuary.prime.scepter, pid:19543, uid:10631
+12-03 10:09:55.916  2123  2158 V WindowManager: Sent Transition (#34748) createdAt=12-03 10:09:55.868 via request=TransitionRequestInfo { type = TO_FRONT, triggerTask = TaskInfo{userId=0 taskId=89558 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.sanctuary.prime.scepter/.MainActivity } baseActivity=ComponentInfo{com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity} topActivity=ComponentInfo{com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity} origActivity=null realActivity=ComponentInfo{com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity} numActivities=1 lastActiveTime=944704972 supportsMultiWindow=true supportsGlobalFreeform=true resizeMode=1 isResizeable=true isAppLocked=false isShowDecorCaptionWindowRequest=false canKillAndRestart=true minWidth=-1 minHeight=-1 defaultMinSize=200 token=WCT{RemoteToken{c82e717 Task{1d97e11 #89558 type=standard A=10631:com.sanctuary.prime.scepter}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 108 - 0, 0) topActivityInfo=ActivityInfo{8ef9704 com.sanctuary.prime.scepter.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2640 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@66ffff4, appThread = android.app.IApplicationThread$Stub$Proxy@864831d, debugName = QuickstepLaunch }, displayChange = null, flags = 0, debugId = 34748 }
+12-03 10:09:55.916  2123  2158 V WindowManager:         {WCT{RemoteToken{c82e717 Task{1d97e11 #89558 type=standard A=10631:com.sanctuary.prime.scepter}}} m=TO_FRONT f=MOVE_TO_TOP pTaskId=-1 leash=Surface(name=Task=89558)/@0x5d4602f sb=Rect(0, 0 - 1080, 2640) eb=Rect(0, 0 - 1080, 2640) d=0 taskParent=-1},
+12-03 10:09:55.917  1363  1363 I MTK_APPList: [notifyAPPstate] pc:0, com.motorola.launcher3 => com.sanctuary.prime.scepter
+12-03 10:09:55.919  2123  2654 I PowerHalWrapper: amsBoostNotify pid:1253,activity:com.android.launcher3.CustomizationPanelLauncher, package:com.motorola.launcher3, mProcessCreatePackcom.sanctuary.prime.scepter 
+12-03 10:09:55.920  1253  1253 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=89558, baseIntent=Intent { flg=0x10000000 cmp=com.sanctuary.prime.scepter/.MainActivity }
+12-03 10:09:55.922  1363  1363 I MTK_APPList: [notifyAPPstate] multi_resumed_app_info[0] com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity, pid:19543, fps:-1, isMultiWindow:0
+12-03 10:09:55.930  1447  2059 I BufferQueueDebug: [com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity#474631](this:0xb4000070ce14d040,id:-1,api:0,p:-1,c:-1) BufferQueue core=(1447:/system/bin/surfaceflinger)
+12-03 10:09:55.937  2123  2162 D SurfaceComposerClient: Transaction::apply InputWindowCommands.focusRequests timestamp=748534825471384, windowName=f39edfa com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity
+12-03 10:09:55.942 23729 23649 W DynamicVolume: DynamicVolumeService: onForegroundActivitiesChanged, record latest volume: AppStartVolume(packageUid=10631, packageName=com.sanctuary.prime.scepter, timeInMillis=1764778195928, date=Wed Dec 03 10:09:55 CST 2025, startVolume=9, deviceType=2)
+12-03 10:09:55.944  1447  1447 D SurfaceFlinger: Focus addInputWindowCommands timestamp=748534825471384, windowName=f39edfa com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity
+12-03 10:09:55.951  1447  2014 D SurfaceFlinger: updateWinowInfo=1, setFocusedWindow timestamp=748534825471384, windowName=f39edfa com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity
+12-03 10:09:55.972  2123  2201 W MotoBatteryCareService: uid: 10631 pkgName:com.sanctuary.prime.scepter come to foreground
+12-03 10:09:55.973  2123  2519 I ImeTracker: com.sanctuary.prime.scepter:81585541: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+12-03 10:09:55.973  2123  2519 I ImeTracker: com.sanctuary.prime.scepter:81585541: onCancelled at PHASE_SERVER_SHOULD_HIDE
+12-03 10:09:55.985 26768 26768 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1347 onStartInput(EditorInfo{EditorInfo{packageName=com.sanctuary.prime.scepter, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+12-03 10:09:55.986  2123  3002 W PackageConfigPersister: App-specific configuration not found for packageName: com.sanctuary.prime.scepter and userId: 0
+12-03 10:09:56.102  2123  2654 I PowerHalWrapper: amsBoostNotify pid:1253,activity:com.android.launcher3.CustomizationPanelLauncher, package:com.motorola.launcher3, mProcessCreatePackcom.sanctuary.prime.scepter 
+12-03 10:09:56.106  1363  1363 I MTK_APPList: [notifyAPPstate] multi_resumed_app_info[0] com.sanctuary.prime.scepter/com.sanctuary.prime.scepter.MainActivity, pid:19543, fps:-1, isMultiWindow:0
+12-03 10:09:59.642 24394 24405 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-03 10:09:59.642 24394 24405 W Binder  : java.lang.UnsupportedOperationException
+12-03 10:10:02.499  3676  4034 W RealClient-ConnectionManager: Generic error while handling connection: com.facebook.wearable.companion.connectivity.lib.blemanager.exceptions.BLEPairingRequiredException: Device requires pairing.
